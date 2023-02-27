@@ -1,0 +1,87 @@
+.profile_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    /*background-image: url('')*/
+}
+
+.profile_parent {
+    display: flex;
+    align-items: center;
+    /*color: aliceblue;*/
+}
+
+.profile_detail_name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.profile_details_role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0,
+}
+
+.profile_details_role h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.primary_text {
+    color: '#000'
+}
+
+.highlighted_text {
+    color: ''
+}
+
+.profile_role_tagine {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.profile_options .highlighted_btn {
+    margin: 0 0 0 28px;
+}
+
+.profile_options .highlighted_btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+
+.profile_picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #111;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.profile_picture_background {
+    height: 92%;
+    width: 92%;
+    background-image: url("../../../public/me.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile_picture_background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-in-out;
+}
+
+.colz .colz_icon {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+} 

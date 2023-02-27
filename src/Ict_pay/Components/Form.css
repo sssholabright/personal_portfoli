@@ -1,0 +1,107 @@
+.formPage {
+    background-color: #f25fb9;
+    background-image: url('home_bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .formPage {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .transparent {
+        padding-inline: 10px;
+    }
+}
+
+.formContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 25%;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -50px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 1px #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .formContainer {
+        margin-inline: 40px;
+        padding-inline: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header_logo > div {
+        margin-left: 10px;
+        line-height: 40px;
+    }
+}
+
+h1 {
+    color: #f25fb9;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+h2 {
+    color: green;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.formBox {
+    margin: 20px;
+}
+
+.form, .select, .option {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding-block: 15px;
+    padding-inline: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: #f25fb9;
+    color: #fff;
+    font-weight: bold;
+    border: 0px solid;
+}

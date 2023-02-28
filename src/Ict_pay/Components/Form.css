@@ -98,6 +98,14 @@ h2 {
     margin: 20px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .formBox {
+        margin-inline: 0px;
+    }
+}
+
+
 .form, .select, .option {
     border: 1px solid lightgray;
     border-radius: 4px;
